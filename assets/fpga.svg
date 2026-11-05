@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="200" viewBox="0 0 840 200" role="img" aria-label="Neural networks on FPGA — Fashion-MNIST inference on the Zybo Z10 using VHDL.">
+<title>Neural networks on FPGA — Fashion-MNIST inference on the Zybo Z10 using VHDL.</title><defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0d1726"/><stop offset="1" stop-color="#122b36"/></linearGradient></defs>
+<rect width="840" height="200" rx="18" fill="url(#bg)"/><g font-family="Arial, Helvetica, sans-serif"><rect x="0" y="22" width="4" height="164" fill="#c6afff"/>
+<text x="30" y="36" fill="#c6afff" font-size="11" letter-spacing="2">03  /  EDGE MACHINE LEARNING</text>
+<text x="30" y="76" fill="#f1f6fc" font-size="28" font-weight="700">Neural networks on FPGA</text>
+<text x="30" y="106" fill="#c6afff" font-size="16">From trained model to hardware.</text>
+<text x="30" y="134" fill="#b4c5d8" font-size="15">Fashion-MNIST inference on the Zybo Z10 using VHDL.</text>
+<path d="M30 151H810" stroke="#2b4052"/>
+<text x="30" y="177" fill="#9eb2c8" font-size="12">VHDL  /  TensorFlow  /  Vivado  /  Fixed-point arithmetic</text>
+<text x="807" y="177" text-anchor="end" fill="#c6afff" font-size="12">VIEW CODE →</text></g></svg>
