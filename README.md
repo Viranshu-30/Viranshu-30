@@ -162,8 +162,8 @@ In this domain the governing metric is the false negative rate: an undetected ph
 <img src="https://raw.githubusercontent.com/Viranshu-30/Viranshu-30/main/assets/div-telemetry.svg?v=3" width="100%" alt="Telemetry. Live from the GitHub API." />
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Viranshu-30&show_icons=true&hide_border=true&bg_color=0d1117&title_color=2dffa3&icon_color=38d6ff&text_color=e9f0ff&ring_color=2dffa3&rank_icon=github" alt="Viranshu's GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Viranshu-30&layout=compact&hide_border=true&bg_color=0d1117&title_color=2dffa3&text_color=e9f0ff&langs_count=8" alt="Most used languages" />
+  <img height="170" src="https://raw.githubusercontent.com/Viranshu-30/Viranshu-30/output/stats-card.svg" alt="Viranshu's GitHub stats" />
+  <img height="170" src="https://raw.githubusercontent.com/Viranshu-30/Viranshu-30/output/top-langs.svg" alt="Most used languages" />
 </p>
 
 <p align="center">
