@@ -11,7 +11,7 @@
   <a href="https://viranshu-30.github.io"><img src="https://img.shields.io/badge/🌐_portfolio-0a0f1b?style=for-the-badge&labelColor=0a0f1b&color=0d1322" alt="portfolio website"/></a>
 </p>
 
-I'm **Viranshu Paruparla**. I work at the intersection of machine learning and systems engineering: persistent memory architectures for AI agents, distributed optimization over physical communication channels, and neural inference compiled down to reconfigurable hardware. The recurring theme is intelligence that survives production constraints: bandwidth, latency, power, and time.
+I'm **Viranshu Paruparla**. AI systems engineer and maintainer of MemMachine, the 3,300+ star open-source memory layer for AI agents. Currently at MemVerge, building memory-grounded agent tooling, fully on-device LLM serving, and the evaluation work behind both. M.S. Computer Engineering, California State University, Northridge.
 
 Five transmissions below, ordered by signal strength. Each one expands.
 
