@@ -69,15 +69,25 @@ jobs:
           except Exception:
               pass
 
-          langs = {}
+          EXCLUDE = {"HTML", "CSS", "SCSS", "Shell", "Dockerfile", "Makefile", "Batchfile", "CMake", "Tcl", "Jupyter Notebook"}
+          counts = {}
           for r in own:
               try:
-                  for k, v in gh(r["languages_url"]).items():
-                      langs[k] = langs.get(k, 0) + v
+                  L = gh(r["languages_url"])
               except Exception:
-                  pass
-          total = sum(langs.values()) or 1
-          top = sorted(langs.items(), key=lambda kv: -kv[1])[:6]
+                  L = {}
+              tot = sum(L.values())
+              picked = set()
+              for k, v in L.items():
+                  if k not in EXCLUDE and tot and v / tot >= 0.15:
+                      picked.add(k)
+              prim = r.get("language")
+              if prim and prim not in EXCLUDE:
+                  picked.add(prim)
+              for k in picked:
+                  counts[k] = counts.get(k, 0) + 1
+          total = sum(counts.values()) or 1
+          top = sorted(counts.items(), key=lambda kv: (-kv[1], kv[0]))[:6]
 
           BG="#0d1117"; LINE="#1b2742"; TEXT="#e9f0ff"; MUTED="#8a9bbd"
           PAL=["#2dffa3","#38d6ff","#b18bff","#ffc24d","#ff6b9d","#8a9bbd"]
@@ -120,8 +130,8 @@ jobs:
               body += '<circle cx="%d" cy="%d" r="5" fill="%s"/>' % (cx + 5, cy - 4, PAL[i % 6])
               body += '<text x="%d" y="%d" font-family="%s" font-size="12.5" fill="%s">%s</text>' % (cx + 18, cy, MONO, TEXT, name)
               body += '<text x="%d" y="%d" text-anchor="end" font-family="%s" font-size="12.5" fill="%s">%.1f%%</text>' % (cx + 200, cy, MONO, MUTED, pct)
-          svg = ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 195" role="img" aria-label="Most used languages">'
-                 + shell("$ languages --by-bytes") + body + "</svg>")
+          svg = ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 195" role="img" aria-label="Languages by number of projects">'
+                 + shell("$ languages --by-repo") + body + "</svg>")
           open("dist/top-langs.svg", "w").write(svg)
           print("cards written:", stars, contrib, followers, repo_count, top[:3])
           PY
