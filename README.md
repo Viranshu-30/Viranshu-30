@@ -1,6 +1,6 @@
 <a id="top"></a>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Viranshu-30/Viranshu-30/main/assets/hero.svg?v=2" width="100%" alt="Viranshu Paruparla. AI systems engineering. Agent memory architectures, communication-efficient distributed training, and quantized inference in silicon." />
+  <img src="https://raw.githubusercontent.com/Viranshu-30/Viranshu-30/main/assets/hero.svg?v=3" width="100%" alt="Viranshu Paruparla. AI systems engineering. Agent memory architectures, communication-efficient distributed training, and quantized inference in silicon." />
 </p>
 
 <p align="center">
@@ -16,10 +16,10 @@ I'm **Viranshu Paruparla**. I work at the intersection of machine learning and s
 Five transmissions below, ordered by signal strength. Each one expands.
 
 <a id="transmissions"></a>
-<img src="https://raw.githubusercontent.com/Viranshu-30/Viranshu-30/main/assets/div-channels.svg?v=2" width="100%" alt="Incoming transmissions. Five channels, ordered by signal strength." />
+<img src="https://raw.githubusercontent.com/Viranshu-30/Viranshu-30/main/assets/div-channels.svg?v=3" width="100%" alt="Incoming transmissions. Five channels, ordered by signal strength." />
 
 <a href="https://github.com/Viranshu-30/strands-memmachine">
-  <img src="https://raw.githubusercontent.com/Viranshu-30/Viranshu-30/main/assets/ch-pr862.svg?v=2" width="100%" alt="Channel PR 862. Merged upstream. Authored the Strands Agents integration merged into MemMachine, a 3.1k star open source AI memory platform." />
+  <img src="https://raw.githubusercontent.com/Viranshu-30/Viranshu-30/main/assets/ch-pr862.svg?v=3" width="100%" alt="Channel PR 862. Merged upstream. Authored the Strands Agents integration merged into MemMachine, a 3.1k star open source AI memory platform." />
 </a>
 
 <details>
@@ -49,7 +49,7 @@ Contributing upstream is a different discipline from solo work: conforming to an
 <br/>
 
 <a href="https://github.com/Viranshu-30/HippoSync">
-  <img src="https://raw.githubusercontent.com/Viranshu-30/Viranshu-30/main/assets/ch-mem.svg?v=2" width="100%" alt="Channel memory version 2. HippoSync. A provider-agnostic chat platform whose memory layer persists across sessions and providers." />
+  <img src="https://raw.githubusercontent.com/Viranshu-30/Viranshu-30/main/assets/ch-mem.svg?v=3" width="100%" alt="Channel memory version 2. HippoSync. A provider-agnostic chat platform whose memory layer persists across sessions and providers." />
 </a>
 
 <details>
@@ -74,7 +74,7 @@ Python backend, web client, SQLite for application state, MemMachine for persist
 <br/>
 
 <a href="https://github.com/Viranshu-30/distributed-cocoa-usrp">
-  <img src="https://raw.githubusercontent.com/Viranshu-30/Viranshu-30/main/assets/ch-915.svg?v=2" width="100%" alt="Channel 915 megahertz. Distributed optimization over RF. Communication-efficient SVM training across two compute nodes over a physical radio link." />
+  <img src="https://raw.githubusercontent.com/Viranshu-30/Viranshu-30/main/assets/ch-915.svg?v=3" width="100%" alt="Channel 915 megahertz. Distributed optimization over RF. Communication-efficient SVM training across two compute nodes over a physical radio link." />
 </a>
 
 <details>
@@ -110,7 +110,7 @@ Computation accounted for seconds; the channel accounted for half an hour. That 
 <br/>
 
 <a href="https://github.com/Viranshu-30/embedded-neural-network-deployment-on-fpga">
-  <img src="https://raw.githubusercontent.com/Viranshu-30/Viranshu-30/main/assets/ch-125.svg?v=2" width="100%" alt="Channel 125 megahertz. Hardware-accelerated inference. An 8-bit quantized multilayer perceptron implemented in RTL on the Zybo Z10 FPGA." />
+  <img src="https://raw.githubusercontent.com/Viranshu-30/Viranshu-30/main/assets/ch-125.svg?v=3" width="100%" alt="Channel 125 megahertz. Hardware-accelerated inference. An 8-bit quantized multilayer perceptron implemented in RTL on the Zybo Z10 FPGA." />
 </a>
 
 <details>
@@ -136,7 +136,7 @@ Quantization, memory layout, and data movement, decisions a framework normally m
 <br/>
 
 <a href="https://github.com/Viranshu-30/Supervised-Learning-Pipeline-for-Phishing-Website-Classification">
-  <img src="https://raw.githubusercontent.com/Viranshu-30/Viranshu-30/main/assets/ch-sec.svg?v=2" width="100%" alt="Channel SEC. PhishGuard. Gradient-boosted phishing detection at 97.2 percent accuracy and a 1.4 percent false negative rate, deployed as a Django application." />
+  <img src="https://raw.githubusercontent.com/Viranshu-30/Viranshu-30/main/assets/ch-sec.svg?v=3" width="100%" alt="Channel SEC. PhishGuard. Gradient-boosted phishing detection at 97.2 percent accuracy and a 1.4 percent false negative rate, deployed as a Django application." />
 </a>
 
 <details>
@@ -159,15 +159,15 @@ In this domain the governing metric is the false negative rate: an undetected ph
 </details>
 
 <a id="telemetry"></a>
-<img src="https://raw.githubusercontent.com/Viranshu-30/Viranshu-30/main/assets/div-telemetry.svg?v=2" width="100%" alt="Telemetry. Live from the GitHub API." />
+<img src="https://raw.githubusercontent.com/Viranshu-30/Viranshu-30/main/assets/div-telemetry.svg?v=3" width="100%" alt="Telemetry. Live from the GitHub API." />
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Viranshu-30&show_icons=true&hide_border=true&bg_color=0a0f1b&title_color=2dffa3&icon_color=38d6ff&text_color=e9f0ff&ring_color=2dffa3&rank_icon=github" alt="Viranshu's GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Viranshu-30&layout=compact&hide_border=true&bg_color=0a0f1b&title_color=2dffa3&text_color=e9f0ff&langs_count=8" alt="Most used languages" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Viranshu-30&show_icons=true&hide_border=true&bg_color=0d1117&title_color=2dffa3&icon_color=38d6ff&text_color=e9f0ff&ring_color=2dffa3&rank_icon=github" alt="Viranshu's GitHub stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Viranshu-30&layout=compact&hide_border=true&bg_color=0d1117&title_color=2dffa3&text_color=e9f0ff&langs_count=8" alt="Most used languages" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Viranshu-30&hide_border=true&background=0a0f1b&ring=2dffa3&fire=ffc24d&currStreakLabel=2dffa3&currStreakNum=e9f0ff&sideNums=e9f0ff&sideLabels=8a9bbd&dates=8a9bbd&stroke=1b2742" alt="Contribution streak" />
+  <img src="https://streak-stats.demolab.com?user=Viranshu-30&hide_border=true&background=0d1117&ring=2dffa3&fire=ffc24d&currStreakLabel=2dffa3&currStreakNum=e9f0ff&sideNums=e9f0ff&sideLabels=8a9bbd&dates=8a9bbd&stroke=1b2742" alt="Contribution streak" />
 </p>
 
 <p align="center">
@@ -203,5 +203,5 @@ contact:      viranshu-30.github.io, or open an issue on any repository. I respo
 ```
 
 <a href="https://github.com/Viranshu-30?tab=repositories">
-  <img src="https://raw.githubusercontent.com/Viranshu-30/Viranshu-30/main/assets/footer.svg?v=2" width="100%" alt="Transmission complete. Full implementations in the repositories." />
+  <img src="https://raw.githubusercontent.com/Viranshu-30/Viranshu-30/main/assets/footer.svg?v=3" width="100%" alt="Transmission complete. Full implementations in the repositories." />
 </a>
