@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 150" font-family="'Segoe UI', Helvetica, Arial, sans-serif" role="img"
      aria-label="Transmission complete. Full implementations in the repositories.">
-  <rect x="20" y="14" width="960" height="92" rx="14" fill="#0a0f1b" stroke="#1b2742" stroke-width="1.5"/>
+  <rect x="20" y="14" width="960" height="92" rx="14" fill="#0d1117" stroke="#1b2742" stroke-width="1.5"/>
   <clipPath id="fclip"><rect x="20" y="14" width="960" height="92" rx="14"/></clipPath>
   <g clip-path="url(#fclip)">
     <path d="M20 60 h46 l7 -9 l7 9 h18 l8 -34 l9 58 l8 -24 h18 l7 -9 l7 9 h46 l7 -9 l7 9 h18 l8 -34 l9 58 l8 -24 h18 l7 -9 l7 9 h46 l7 -9 l7 9 h18 l8 -34 l9 58 l8 -24 h18 l7 -9 l7 9 h46 l7 -9 l7 9 h18 l8 -34 l9 58 l8 -24 h18 l7 -9 l7 9 h46 l7 -9 l7 9 h18 l8 -34 l9 58 l8 -24 h18 l7 -9 l7 9 H980" fill="none" stroke="#2dffa3" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"

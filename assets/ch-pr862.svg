@@ -5,13 +5,13 @@
     </pattern>
     <clipPath id="clipchpr862"><rect x="20" y="20" width="960" height="208" rx="14"/></clipPath>
   </defs>
-  <rect x="20" y="20" width="960" height="208" rx="14" fill="#0a0f1b" stroke="#1b2742" stroke-width="1.5"/>
+  <rect x="20" y="20" width="960" height="208" rx="14" fill="#0d1117" stroke="#1b2742" stroke-width="1.5"/>
   <rect x="20" y="20" width="960" height="208" rx="14" fill="none" stroke="#b18bff" stroke-width="1.6"
         stroke-dasharray="230 2106" opacity=".9">
     <animate attributeName="stroke-dashoffset" values="0;-2336" dur="9s" repeatCount="indefinite"/>
   </rect>
   <g clip-path="url(#clipchpr862)">
-    <rect x="600" y="20" width="380" height="208" fill="#0d1322"/>
+    <rect x="600" y="20" width="380" height="208" fill="#0d1117"/>
     <rect x="600" y="20" width="380" height="208" fill="url(#gchpr862)"/>
     <line x1="600" y1="20" x2="600" y2="228" stroke="#1b2742" stroke-width="1.5"/>
     
@@ -49,7 +49,7 @@
 
   </g>
 
-  <rect x="56" y="44" width="110" height="26" rx="6" fill="#111a2e" stroke="#b18bff" stroke-opacity=".6"/>
+  <rect x="56" y="44" width="110" height="26" rx="6" fill="#0d1117" stroke="#b18bff" stroke-opacity=".6"/>
   <circle cx="72" cy="57" r="3.4" fill="#b18bff">
     <animate attributeName="opacity" values="1;.3;1" dur="1.6s" repeatCount="indefinite"/>
   </circle>
@@ -58,8 +58,8 @@
   <text x="56" y="108" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" font-weight="800" fill="#e9f0ff">Merged upstream</text>
   <text x="56" y="137" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#8a9bbd">Authored the Strands Agents integration for MemMachine. Merged</text>
   <text x="56" y="158" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#8a9bbd">into a 3.1k star open source AI memory platform at v0.3.7.</text>
-  <rect x="56" y="178" width="67" height="26" rx="13" fill="#0d1322" stroke="#1b2742"/><text x="90" y="195" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#8a9bbd">python</text>
-  <rect x="133.2" y="178" width="125" height="26" rx="13" fill="#0d1322" stroke="#1b2742"/><text x="196" y="195" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#8a9bbd">strands agents</text>
-  <rect x="268.0" y="178" width="96" height="26" rx="13" fill="#0d1322" stroke="#1b2742"/><text x="316" y="195" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#8a9bbd">memmachine</text>
-  <rect x="374.0" y="178" width="53" height="26" rx="13" fill="#0d1322" stroke="#1b2742"/><text x="400" y="195" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#8a9bbd">pypi</text>
+  <rect x="56" y="178" width="67" height="26" rx="13" fill="#0d1117" stroke="#1b2742"/><text x="90" y="195" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#8a9bbd">python</text>
+  <rect x="133.2" y="178" width="125" height="26" rx="13" fill="#0d1117" stroke="#1b2742"/><text x="196" y="195" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#8a9bbd">strands agents</text>
+  <rect x="268.0" y="178" width="96" height="26" rx="13" fill="#0d1117" stroke="#1b2742"/><text x="316" y="195" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#8a9bbd">memmachine</text>
+  <rect x="374.0" y="178" width="53" height="26" rx="13" fill="#0d1117" stroke="#1b2742"/><text x="400" y="195" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#8a9bbd">pypi</text>
 </svg>

@@ -5,13 +5,13 @@
     </pattern>
     <clipPath id="clipch915"><rect x="20" y="20" width="960" height="208" rx="14"/></clipPath>
   </defs>
-  <rect x="20" y="20" width="960" height="208" rx="14" fill="#0a0f1b" stroke="#1b2742" stroke-width="1.5"/>
+  <rect x="20" y="20" width="960" height="208" rx="14" fill="#0d1117" stroke="#1b2742" stroke-width="1.5"/>
   <rect x="20" y="20" width="960" height="208" rx="14" fill="none" stroke="#ffc24d" stroke-width="1.6"
         stroke-dasharray="230 2106" opacity=".9">
     <animate attributeName="stroke-dashoffset" values="0;-2336" dur="9s" repeatCount="indefinite"/>
   </rect>
   <g clip-path="url(#clipch915)">
-    <rect x="600" y="20" width="380" height="208" fill="#0d1322"/>
+    <rect x="600" y="20" width="380" height="208" fill="#0d1117"/>
     <rect x="600" y="20" width="380" height="208" fill="url(#gch915)"/>
     <line x1="600" y1="20" x2="600" y2="228" stroke="#1b2742" stroke-width="1.5"/>
     
@@ -45,7 +45,7 @@
 
   </g>
 
-  <rect x="56" y="44" width="110" height="26" rx="6" fill="#111a2e" stroke="#ffc24d" stroke-opacity=".6"/>
+  <rect x="56" y="44" width="110" height="26" rx="6" fill="#0d1117" stroke="#ffc24d" stroke-opacity=".6"/>
   <circle cx="72" cy="57" r="3.4" fill="#ffc24d">
     <animate attributeName="opacity" values="1;.3;1" dur="1.6s" repeatCount="indefinite"/>
   </circle>
@@ -54,9 +54,9 @@
   <text x="56" y="108" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" font-weight="800" fill="#e9f0ff">Distributed optimization over RF</text>
   <text x="56" y="137" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#8a9bbd">Communication-efficient SVM training across two compute nodes.</text>
   <text x="56" y="158" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#8a9bbd">Every parameter update traverses a physical 915 MHz DBPSK link.</text>
-  <rect x="56" y="178" width="67" height="26" rx="13" fill="#0d1322" stroke="#1b2742"/><text x="90" y="195" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#8a9bbd">matlab</text>
-  <rect x="133.2" y="178" width="89" height="26" rx="13" fill="#0d1322" stroke="#1b2742"/><text x="178" y="195" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#8a9bbd">usrp n210</text>
-  <rect x="232.0" y="178" width="60" height="26" rx="13" fill="#0d1322" stroke="#1b2742"/><text x="262" y="195" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#8a9bbd">dbpsk</text>
-  <rect x="302.0" y="178" width="89" height="26" rx="13" fill="#0d1322" stroke="#1b2742"/><text x="346" y="195" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#8a9bbd">cocoa svm</text>
-  <rect x="400.8" y="178" width="82" height="26" rx="13" fill="#0d1322" stroke="#1b2742"/><text x="442" y="195" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#8a9bbd">adler-32</text>
+  <rect x="56" y="178" width="67" height="26" rx="13" fill="#0d1117" stroke="#1b2742"/><text x="90" y="195" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#8a9bbd">matlab</text>
+  <rect x="133.2" y="178" width="89" height="26" rx="13" fill="#0d1117" stroke="#1b2742"/><text x="178" y="195" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#8a9bbd">usrp n210</text>
+  <rect x="232.0" y="178" width="60" height="26" rx="13" fill="#0d1117" stroke="#1b2742"/><text x="262" y="195" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#8a9bbd">dbpsk</text>
+  <rect x="302.0" y="178" width="89" height="26" rx="13" fill="#0d1117" stroke="#1b2742"/><text x="346" y="195" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#8a9bbd">cocoa svm</text>
+  <rect x="400.8" y="178" width="82" height="26" rx="13" fill="#0d1117" stroke="#1b2742"/><text x="442" y="195" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#8a9bbd">adler-32</text>
 </svg>
