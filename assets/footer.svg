@@ -1,6 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 150" font-family="'Segoe UI', Helvetica, Arial, sans-serif" role="img"
      aria-label="Transmission complete. Full implementations in the repositories.">
-  <rect width="1000" height="150" fill="#05070d"/>
   <rect x="20" y="14" width="960" height="92" rx="14" fill="#0a0f1b" stroke="#1b2742" stroke-width="1.5"/>
   <clipPath id="fclip"><rect x="20" y="14" width="960" height="92" rx="14"/></clipPath>
   <g clip-path="url(#fclip)">
