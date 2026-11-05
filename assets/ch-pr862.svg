@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 248" font-family="'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Channel PR 862. Merged upstream. Authored the Strands Agents integration merged into MemMachine, a 3.1k star open source AI memory platform.">
+  <defs>
+    <pattern id="gchpr862" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#1b2742" stroke-width=".6" opacity=".45"/>
+    </pattern>
+    <clipPath id="clipchpr862"><rect x="20" y="20" width="960" height="208" rx="14"/></clipPath>
+  </defs>
+  <rect width="1000" height="248" fill="#05070d"/>
+  <rect x="20" y="20" width="960" height="208" rx="14" fill="#0a0f1b" stroke="#1b2742" stroke-width="1.5"/>
+  <rect x="20" y="20" width="960" height="208" rx="14" fill="none" stroke="#b18bff" stroke-width="1.6"
+        stroke-dasharray="230 2106" opacity=".9">
+    <animate attributeName="stroke-dashoffset" values="0;-2336" dur="9s" repeatCount="indefinite"/>
+  </rect>
+  <g clip-path="url(#clipchpr862)">
+    <rect x="600" y="20" width="380" height="208" fill="#0d1322"/>
+    <rect x="600" y="20" width="380" height="208" fill="url(#gchpr862)"/>
+    <line x1="600" y1="20" x2="600" y2="228" stroke="#1b2742" stroke-width="1.5"/>
+    
+    <path id="mainline" d="M636 150 H944" fill="none" stroke="#8a9bbd" stroke-width="2" opacity=".6"/>
+    <path id="branch" d="M668 150 C700 150 700 86 736 86 H852 C888 86 888 150 916 150" fill="none" stroke="#b18bff" stroke-width="2"/>
+    <circle cx="668" cy="150" r="5" fill="#8a9bbd"/>
+    <circle cx="944" cy="150" r="5" fill="#8a9bbd"/>
+    <circle cx="764" cy="86" r="5" fill="#b18bff"/>
+    <circle cx="824" cy="86" r="5" fill="#b18bff"/>
+    <g>
+      <circle r="5.5" fill="#2dffa3"/>
+      <circle r="10" fill="#2dffa3" opacity=".25"/>
+      <animateMotion dur="4s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1">
+        <mpath xlink:href="#branch"/>
+      </animateMotion>
+    </g>
+    <circle cx="916" cy="150" r="8" fill="none" stroke="#2dffa3" stroke-width="1.5" opacity="0">
+      <animate attributeName="r" values="6;22" dur="4s" begin="3.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".9;0" dur="4s" begin="3.6s" repeatCount="indefinite"/>
+    </circle>
+    <g>
+      <rect x="862" y="108" width="82" height="24" rx="12" fill="#b18bff"/>
+      <text x="903" y="124" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700" fill="#140b2e">merged ✓</text>
+      <animate attributeName="opacity" values=".75;1;.75" dur="2.4s" repeatCount="indefinite"/>
+    </g>
+    <text x="668" y="176" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8a9bbd">main</text>
+    <text x="736" y="70" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#b18bff">feat/strands-memmachine</text>
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5">
+      <text x="636" y="44" fill="#8a9bbd">MemMachine/MemMachine</text>
+      <text x="636" y="206" fill="#8a9bbd">PR #862 → milestone v0.3.7</text>
+      <text x="944" y="44" text-anchor="end" fill="#ffc24d">★ 3.1k
+        <animate attributeName="opacity" values="1;.5;1" dur="2.8s" repeatCount="indefinite"/>
+      </text>
+    </g>
+
+  </g>
+
+  <rect x="56" y="44" width="110" height="26" rx="6" fill="#111a2e" stroke="#b18bff" stroke-opacity=".6"/>
+  <circle cx="72" cy="57" r="3.4" fill="#b18bff">
+    <animate attributeName="opacity" values="1;.3;1" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="84" y="61" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#b18bff" letter-spacing="1">CH PR#862</text>
+
+  <text x="56" y="108" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" font-weight="800" fill="#e9f0ff">Merged upstream</text>
+  <text x="56" y="137" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#8a9bbd">Authored the Strands Agents integration for MemMachine. Merged</text>
+  <text x="56" y="158" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#8a9bbd">into a 3.1k star open source AI memory platform at v0.3.7.</text>
+  <rect x="56" y="178" width="67" height="26" rx="13" fill="#0d1322" stroke="#1b2742"/><text x="90" y="195" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#8a9bbd">python</text>
+  <rect x="133.2" y="178" width="125" height="26" rx="13" fill="#0d1322" stroke="#1b2742"/><text x="196" y="195" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#8a9bbd">strands agents</text>
+  <rect x="268.0" y="178" width="96" height="26" rx="13" fill="#0d1322" stroke="#1b2742"/><text x="316" y="195" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#8a9bbd">memmachine</text>
+  <rect x="374.0" y="178" width="53" height="26" rx="13" fill="#0d1322" stroke="#1b2742"/><text x="400" y="195" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#8a9bbd">pypi</text>
+</svg>

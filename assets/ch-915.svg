@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 248" font-family="'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Channel 915 megahertz. Distributed optimization over RF. Communication-efficient SVM training across two compute nodes over a physical radio link.">
+  <defs>
+    <pattern id="gch915" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#1b2742" stroke-width=".6" opacity=".45"/>
+    </pattern>
+    <clipPath id="clipch915"><rect x="20" y="20" width="960" height="208" rx="14"/></clipPath>
+  </defs>
+  <rect width="1000" height="248" fill="#05070d"/>
+  <rect x="20" y="20" width="960" height="208" rx="14" fill="#0a0f1b" stroke="#1b2742" stroke-width="1.5"/>
+  <rect x="20" y="20" width="960" height="208" rx="14" fill="none" stroke="#ffc24d" stroke-width="1.6"
+        stroke-dasharray="230 2106" opacity=".9">
+    <animate attributeName="stroke-dashoffset" values="0;-2336" dur="9s" repeatCount="indefinite"/>
+  </rect>
+  <g clip-path="url(#clipch915)">
+    <rect x="600" y="20" width="380" height="208" fill="#0d1322"/>
+    <rect x="600" y="20" width="380" height="208" fill="url(#gch915)"/>
+    <line x1="600" y1="20" x2="600" y2="228" stroke="#1b2742" stroke-width="1.5"/>
+    
+    <!-- ground -->
+    <line x1="630" y1="166" x2="950" y2="166" stroke="#1b2742" stroke-width="1.5"/>
+    <!-- masts -->
+    <g stroke="#8a9bbd" stroke-width="2" fill="none">
+      <path d="M662 166 V84 M654 100 L662 84 L670 100"/>
+      <path d="M918 166 V84 M910 100 L918 84 L926 100"/>
+    </g>
+    <text x="662" y="184" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8a9bbd">pc-a</text>
+    <text x="918" y="184" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8a9bbd">pc-b</text>
+    <!-- ripples -->
+    <circle cx="662" cy="84" r="8" fill="none" stroke="#ffc24d" stroke-width="1.3" opacity="0"><animate attributeName="r" values="6;34" dur="2.2s" begin="0s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0" dur="2.2s" begin="0s" repeatCount="indefinite"/></circle><circle cx="662" cy="84" r="8" fill="none" stroke="#ffc24d" stroke-width="1.3" opacity="0"><animate attributeName="r" values="6;34" dur="2.2s" begin="0.7s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0" dur="2.2s" begin="0.7s" repeatCount="indefinite"/></circle><circle cx="662" cy="84" r="8" fill="none" stroke="#ffc24d" stroke-width="1.3" opacity="0"><animate attributeName="r" values="6;34" dur="2.2s" begin="1.4s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0" dur="2.2s" begin="1.4s" repeatCount="indefinite"/></circle>
+    <circle cx="918" cy="84" r="8" fill="none" stroke="#ffc24d" stroke-width="1.3" opacity="0"><animate attributeName="r" values="6;34" dur="2.2s" begin="0.35s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0" dur="2.2s" begin="0.35s" repeatCount="indefinite"/></circle><circle cx="918" cy="84" r="8" fill="none" stroke="#ffc24d" stroke-width="1.3" opacity="0"><animate attributeName="r" values="6;34" dur="2.2s" begin="1.05s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0" dur="2.2s" begin="1.05s" repeatCount="indefinite"/></circle><circle cx="918" cy="84" r="8" fill="none" stroke="#ffc24d" stroke-width="1.3" opacity="0"><animate attributeName="r" values="6;34" dur="2.2s" begin="1.75s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0" dur="2.2s" begin="1.75s" repeatCount="indefinite"/></circle>
+    <!-- air path -->
+    <path id="air1" d="M672 78 Q790 30 908 78" fill="none" stroke="#1b2742" stroke-width="1.2" stroke-dasharray="4 6"/>
+    <path id="air2" d="M908 92 Q790 140 672 92" fill="none" stroke="#1b2742" stroke-width="1.2" stroke-dasharray="4 6"/>
+    <g><circle r="4" fill="#ffc24d"/><circle r="8" fill="#ffc24d" opacity=".25"/><animateMotion dur="2.6s" begin="0s" repeatCount="indefinite"><mpath xlink:href="#air1"/></animateMotion></g><g><circle r="4" fill="#ffc24d"/><circle r="8" fill="#ffc24d" opacity=".25"/><animateMotion dur="2.6s" begin="1.3s" repeatCount="indefinite"><mpath xlink:href="#air1"/></animateMotion></g>
+    <g><circle r="4" fill="#2dffa3"/><circle r="8" fill="#2dffa3" opacity=".25"/><animateMotion dur="2.6s" begin="0.65s" repeatCount="indefinite"><mpath xlink:href="#air2"/></animateMotion></g><g><circle r="4" fill="#2dffa3"/><circle r="8" fill="#2dffa3" opacity=".25"/><animateMotion dur="2.6s" begin="1.95s" repeatCount="indefinite"><mpath xlink:href="#air2"/></animateMotion></g>
+    <text x="790" y="48" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#ffc24d">Δw</text>
+    <text x="790" y="128" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#2dffa3">Δw</text>
+    <!-- waveform strip -->
+    <clipPath id="wave915"><rect x="620" y="192" width="340" height="30"/></clipPath>
+    <g clip-path="url(#wave915)">
+      <path d="M620 207 q9 -15 18 0 t18 0 q9 -15 18 0 t18 0 q9 -15 18 0 t18 0 q9 -15 18 0 t18 0 q9 -15 18 0 t18 0 q9 -15 18 0 t18 0 q9 -15 18 0 t18 0 q9 -15 18 0 t18 0 q9 -15 18 0 t18 0 q9 -15 18 0 t18 0 q9 -15 18 0 t18 0 q9 -15 18 0 t18 0 q9 -15 18 0 t18 0 q9 -15 18 0 t18 0 q9 -15 18 0 t18 0 q9 -15 18 0 t18 0 q9 -15 18 0 t18 0 q9 -15 18 0 t18 0 q9 -15 18 0 t18 0 q9 -15 18 0 t18 0 q9 -15 18 0 t18 0 q9 -15 18 0 t18 0 q9 -15 18 0 t18 0 q9 -15 18 0 t18 0" fill="none" stroke="#ffc24d" stroke-width="1.6" opacity=".75">
+        <animateTransform attributeName="transform" type="translate" values="0 0;-144 0" dur="2.4s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <text x="952" y="40" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8a9bbd">sync err 4.1e-16</text>
+
+  </g>
+
+  <rect x="56" y="44" width="110" height="26" rx="6" fill="#111a2e" stroke="#ffc24d" stroke-opacity=".6"/>
+  <circle cx="72" cy="57" r="3.4" fill="#ffc24d">
+    <animate attributeName="opacity" values="1;.3;1" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="84" y="61" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#ffc24d" letter-spacing="1">CH 915MHz</text>
+
+  <text x="56" y="108" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" font-weight="800" fill="#e9f0ff">Distributed optimization over RF</text>
+  <text x="56" y="137" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#8a9bbd">Communication-efficient SVM training across two compute nodes.</text>
+  <text x="56" y="158" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#8a9bbd">Every parameter update traverses a physical 915 MHz DBPSK link.</text>
+  <rect x="56" y="178" width="67" height="26" rx="13" fill="#0d1322" stroke="#1b2742"/><text x="90" y="195" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#8a9bbd">matlab</text>
+  <rect x="133.2" y="178" width="89" height="26" rx="13" fill="#0d1322" stroke="#1b2742"/><text x="178" y="195" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#8a9bbd">usrp n210</text>
+  <rect x="232.0" y="178" width="60" height="26" rx="13" fill="#0d1322" stroke="#1b2742"/><text x="262" y="195" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#8a9bbd">dbpsk</text>
+  <rect x="302.0" y="178" width="89" height="26" rx="13" fill="#0d1322" stroke="#1b2742"/><text x="346" y="195" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#8a9bbd">cocoa svm</text>
+  <rect x="400.8" y="178" width="82" height="26" rx="13" fill="#0d1322" stroke="#1b2742"/><text x="442" y="195" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#8a9bbd">adler-32</text>
+</svg>
